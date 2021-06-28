@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
+
+/* Bootstrap override*/ 
+
+.h1 {
+    font-size: 5rem;
+}
+
+.h2 {
+    font-size: 2.3rem;
+}
+
+.card {
+    border: none;
+    width: 36rem;
+}
+
+/* Start CSS override*/
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.highlight{
+    background-color: lightslategrey;
+    color: white;
+
+}
+.titleProject{
+    color:rgb(231, 231, 231);
+    text-shadow: 2px 3px 3px rgba(7, 5, 5, 0.7);
+}
+
+.titleStyle{
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 3px 3px rgba(148, 148, 148, 0.7);
+}
+#mainPage {
+    background-image: url(../images/pexels-negative-space-160107.jpg);
+    height: 100vh;
+    min-height: 1000px;
+}
+
+#mainPage > div > div {
+    height: 100vh;
+}
+
+#mainPage > div > div > button {
+    text-transform: capitalize;
+}
+
+#technologies {
+    background-image: url(../images/nasty_fabric_@2X.png);
+    height: 100vh;
+}
+
+#technologies > div {
+    height: 100%;
+}
+
+#technologies > div > div {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    -webkit-box-shadow: -4px 9px 22px 2px #000000; 
+    box-shadow: -4px 9px 22px 2px #000000;
+}
+
+.tech-title {
+    letter-spacing: 1rem;
+}
+
+.tech-img {
+    width: 200px;
+    height: 200px;
+}
+
+#projects {
+    background-image: url(../images/code-1839406_1920.jpg);
+    height: 100vh;
+    min-height: 1000px;
+}
+
+#contact {
+    background-color: cornflowerblue;
+    height: 10rem;
+}
+
+#contact h2,  #contact svg {
+    font-size: 1rem;
+}
+
+#contact a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    height: 1rem;
+}
+
+footer h2 {
+    font-size: 1rem;
+}
+
+
+
+/* Breakpoints */
+
+@media (max-width: 1400px) {
+    #technologies {
+        min-height: 1200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nameTitle {
+        font-size: 4rem;
+        color:#c7c7c7;
+    }
+
+    .jobTitle {
+        font-size: 3rem;
+    }
+
+    #technologies {
+        min-height: 1300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nameTitle {
+        font-size: 3rem;
+    }
+
+    .jobTitle, .tech-title {
+        font-size: 2rem;
+    }
+
+    #technologies {
+        min-height: 1400px;
+    }
+
+    #projects {
+        min-height: 2000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nameTitle {
+        font-size: 2rem;
+    }
+
+    .jobTitle, .tech-title {
+        font-size: 1rem;
+    }
+
+    .tech-title {
+        text-align: center !important;
+    }
+
+    #technologies {
+        min-height: 1300px;
+    }
+
+    #projects {
+        min-height: 1500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nameTitle {
+        font-size: 1.5rem;
+    }
+
+    .jobTitle, .tech-title {
+        font-size: 1.5rem;
+    }
+
+    .tech-title {
+        text-align: center !important;
+    }
+
+    #technologies {
+        min-height: 1600px;
+    }
+
+    #projects {
+        min-height: 1500px;
+    }
+}
