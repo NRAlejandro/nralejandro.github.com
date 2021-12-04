@@ -4,16 +4,11 @@
 /* Bootstrap override*/ 
 
 .h1 {
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .h2 {
-    font-size: 2.3rem;
-}
-
-.card {
-    border: none;
-    width: 36rem;
+    font-size: 3.5rem;
 }
 
 /* Start CSS override*/
@@ -26,98 +21,171 @@ body {
     color: white;
 
 }
-.titleProject{
-    color:rgb(231, 231, 231);
-    text-shadow: 2px 3px 3px rgba(7, 5, 5, 0.7);
-}
 
 .titleStyle{
-    color:rgb(0, 0, 0);
-    text-shadow: 2px 3px 3px rgba(148, 148, 148, 0.7);
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -2px 1px rgba(0, 0, 0, 1);
 }
+
+.titleStyle:hover{
+    transition: 1s;
+    color: #b8062c;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
 .cardTextProp{
     color:rgb(255, 255, 255);
-    text-shadow: -1px 1px 2px rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
     font-family: 'Josefin Sans', sans-serif;
 }
-.contactMePro{
-    color:rgb(255, 255, 255);
-    text-shadow: -1px 1px 2px rgba(0, 0, 0, 1);
-    font-family: 'Josefin Sans', sans-serif;
-    
-}
-#mainPage {
-    background-image: url(../images/pexels-negative-space-160107.jpg);
-    height: 100vh;
-    min-height: 1000px;
+
+#mainPage {    
+    background-image: url(../images/main-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 #mainPage > div > div {
     height: 100vh;
 }
 
-#mainPage > div > div > button {
-    text-transform: capitalize;
+.accordion-header {
+padding: 15px;
 }
 
-#technologies {
-    background-image: url(../images/nasty_fabric_@2X.png);
-    height: 100vh;
+.accordion-button{
+    font-size: 1.3rem;
 }
 
-#technologies > div {
-    height: 100%;
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #b8062c !important;
+    font-size: 1.3rem;
+}
+  
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #b8062c !important;
+      color:#FFF !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: rgb(0, 0, 0) !important;
+      box-shadow: 0px !important;
+      font-size: 1.3rem;
+}
+  
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #FFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+    font-size: 1.3rem;
+
 }
 
-#technologies > div > div {
-    margin: 2rem 0;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 2rem;
-    -webkit-box-shadow: -4px 9px 22px 2px #000000; 
-    box-shadow: -4px 9px 22px 2px #000000;
-}
-
-.tech-title {
-    letter-spacing: 1rem;
-}
-
-.tech-img {
-    width: 200px;
-    height: 200px;
-}
-
-#projects {
-    background-image: url(../images/code-1839406_1920.jpg);
-    height: 100vh;
-    min-height: 1000px;
+#icon {
+    height: 90px;
+    width: 220px;
 }
 
 #contact {
-    background-image: url(../images/noisy_net_@2X.png);
+    background-image: url(../images/contact-me-bg.png);
+    background-position: center;
     height: 7rem;
 }
 
-#contact h2,  #contact svg {
-    font-size: 1rem;
-}
-
-#contact a {
-    color: black;
+#contact a{
     text-decoration: none;
 }
 
-footer {
-    height: 1rem;
+.wrapper{
+    display: table; 
+    margin: 0 auto;
 }
 
-footer h2 {
-    font-size: 1rem;
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 22px 5px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
 }
 
+.wrapper .button .icon{
+      color: azure;
+}
 
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #1a50bd;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+    background: #b91600;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+    background: #333;
+}
+ 
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i{
+    color: #fff;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span{
+    color: #4267B2;
+}
+
+.wrapper .button:nth-child(2) span{
+    color: #b91600;
+}
+
+.wrapper .button:nth-child(3) span{
+    color: #333;
+}
+ 
 
 /* Breakpoints */
+@media (max-width: 1220px)
+{
+    #icon  {
+       display:none;
+    }
+}
+
 
 @media (max-width: 1400px) {
     #technologies {
