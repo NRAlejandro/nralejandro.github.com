@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-/* Bootstrap override*/ 
+/* Bootstrap override*/
 
 .h1 {
     font-size: 6rem;
@@ -16,64 +16,67 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.highlight{
+.highlight {
     background-color: lightslategrey;
     color: white;
 
 }
 
-.titleStyle{
-    color:rgb(255, 255, 255);
+.titleStyle {
+    color: rgb(255, 255, 255);
     text-shadow: -1px -2px 1px rgba(0, 0, 0, 1);
 }
 
-.titleStyle:hover{
+.titleStyle:hover {
     transition: 1s;
     color: #b8062c;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.7);
 }
 
-.cardTextProp{
-    color:rgb(255, 255, 255);
+.cardTextProp {
+    color: rgb(255, 255, 255);
     text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#mainPage {    
+#mainPage {
     background-image: url(../images/main-background.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
-#mainPage > div > div {
+#mainPage>div>div {
     height: 100vh;
 }
 
 .accordion-header {
-padding: 15px;
+    padding: 15px;
 }
 
-.accordion-button{
+.accordion-button {
     font-size: 1.3rem;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #FFF  !important;
+    color: #FFF !important;
     background-color: #b8062c !important;
     font-size: 1.3rem;
 }
-  
-.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+
+.accordion-button:link,
+.accordion-button:visited,
+.accordion-button:hover,
+.accordion-button:active {
     background-color: #b8062c !important;
-      color:#FFF !important;
-      text-decoration: none !important;
-       border: hidden !important;
-         border-color: rgb(0, 0, 0) !important;
-      box-shadow: 0px !important;
-      font-size: 1.3rem;
+    color: #FFF !important;
+    text-decoration: none !important;
+    border: hidden !important;
+    border-color: rgb(0, 0, 0) !important;
+    box-shadow: 0px !important;
+    font-size: 1.3rem;
 }
-  
+
 .accordion-button:focus {
     z-index: 3;
     border-color: #FFF !important;
@@ -85,7 +88,7 @@ padding: 15px;
 
 #icon {
     height: 90px;
-    width: 220px;
+    width: 8.3vw;
 }
 
 #contact {
@@ -94,16 +97,16 @@ padding: 15px;
     height: 7rem;
 }
 
-#contact a{
+#contact a {
     text-decoration: none;
 }
 
-.wrapper{
-    display: table; 
+.wrapper {
+    display: table;
     margin: 0 auto;
 }
 
-.wrapper .button{
+.wrapper .button {
     display: inline-block;
     height: 60px;
     width: 60px;
@@ -112,19 +115,19 @@ padding: 15px;
     background: rgb(0, 0, 0);
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button .icon{
-      color: azure;
+.wrapper .button .icon {
+    color: azure;
 }
 
-.wrapper .button:hover{
+.wrapper .button:hover {
     width: 200px;
 }
 
-.wrapper .button .icon{
+.wrapper .button .icon {
     display: inline-block;
     height: 60px;
     width: 60px;
@@ -135,29 +138,29 @@ padding: 15px;
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1):hover .icon{
+.wrapper .button:nth-child(1):hover .icon {
     background: #1a50bd;
 }
 
-.wrapper .button:nth-child(2):hover .icon{
+.wrapper .button:nth-child(2):hover .icon {
     background: #b91600;
 }
 
-.wrapper .button:nth-child(3):hover .icon{
+.wrapper .button:nth-child(3):hover .icon {
     background: #333;
 }
- 
-.wrapper .button .icon i{
+
+.wrapper .button .icon i {
     font-size: 25px;
     line-height: 60px;
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:hover .icon i{
+.wrapper .button:hover .icon i {
     color: #fff;
 }
 
-.wrapper .button span{
+.wrapper .button span {
     font-size: 20px;
     font-weight: 500;
     line-height: 60px;
@@ -165,24 +168,23 @@ padding: 15px;
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1) span{
+.wrapper .button:nth-child(1) span {
     color: #4267B2;
 }
 
-.wrapper .button:nth-child(2) span{
+.wrapper .button:nth-child(2) span {
     color: #b91600;
 }
 
-.wrapper .button:nth-child(3) span{
+.wrapper .button:nth-child(3) span {
     color: #333;
 }
- 
+
 
 /* Breakpoints */
-@media (max-width: 1220px)
-{
-    #icon  {
-       display:none;
+@media (max-width: 1220px) {
+    #icon {
+        display: none;
     }
 }
 
@@ -196,7 +198,7 @@ padding: 15px;
 @media (max-width: 1200px) {
     .nameTitle {
         font-size: 4rem;
-       
+
     }
 
     .jobTitle {
@@ -213,7 +215,8 @@ padding: 15px;
         font-size: 3rem;
     }
 
-    .jobTitle, .tech-title {
+    .jobTitle,
+    .tech-title {
         font-size: 2rem;
     }
 
@@ -231,7 +234,8 @@ padding: 15px;
         font-size: 3rem;
     }
 
-    .jobTitle, .tech-title {
+    .jobTitle,
+    .tech-title {
         font-size: 2rem;
     }
 
@@ -253,7 +257,8 @@ padding: 15px;
         font-size: 1.5rem;
     }
 
-    .jobTitle, .tech-title {
+    .jobTitle,
+    .tech-title {
         font-size: 1.5rem;
     }
 
