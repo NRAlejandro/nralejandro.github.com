@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e25d353.css",
+    "main.js": "/static/js/main.c059bbd5.js",
+    "static/media/video.mp4": "/static/media/video.e6954897d86e9b073e45.mp4",
+    "static/media/personal-goals.svg": "/static/media/personal-goals.3506ff86d46ef97b56b34fe7f0532e2b.svg",
+    "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.4d0524e8507975bf9f23ba41f15253e8.svg",
+    "static/media/node-icon.svg": "/static/media/node-icon.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
+    "static/media/sql-icon.svg": "/static/media/sql-icon.b708b66fc64dfecd18916477d49f085f.svg",
+    "static/media/jest-icon.svg": "/static/media/jest-icon.83a6dad8c94c5bd249198168799f3bf0.svg",
+    "static/media/expressjs-icon.svg": "/static/media/expressjs-icon.493a0dd08d8d77a341e2d22676607a29.svg",
+    "static/media/redux-icon.svg": "/static/media/redux-icon.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "index.html": "/index.html",
+    "static/media/javascript-icon.svg": "/static/media/javascript-icon.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "static/media/html-icon.svg": "/static/media/html-icon.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
+    "static/media/css-icon.svg": "/static/media/css-icon.d9f03c6529e836270f2d1acf6c87f56a.svg",
+    "static/media/react-icon.svg": "/static/media/react-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.7e25d353.css.map": "/static/css/main.7e25d353.css.map",
+    "main.c059bbd5.js.map": "/static/js/main.c059bbd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e25d353.css",
+    "static/js/main.c059bbd5.js"
+  ]
+}
