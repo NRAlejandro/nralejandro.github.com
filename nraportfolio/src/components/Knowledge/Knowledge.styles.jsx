@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const KnowledgeContainer = styled.div`
-  height: 100vh;
+  height: 890px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #fff;
+  min-height: fit-content;
 
   @media screen and (max-width: 768px) {
     height: 1100px;

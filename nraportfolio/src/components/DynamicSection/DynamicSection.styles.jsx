@@ -6,14 +6,13 @@ export const SectionContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
-    height: 1200px;
   }
 `;
 
 export const SectionWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 100vh;
+  height: 890px;
   width: 100%;
   max-width: 1400px;
   margin-right: auto;
